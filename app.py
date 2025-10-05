@@ -4,7 +4,7 @@ import google.generativeai as genai
 # Hard-code your Gemini API key **only if you're comfortable and understand the risk**
 GEMINI_API_KEY = "AIzaSyCGy7ReXE-0rE0l7RZb46-hQyQizq9cePA"
  
-st.title("Gemini Chatbot")
+st.title("chatbot")
  
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
